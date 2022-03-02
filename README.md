@@ -1,6 +1,6 @@
 # Portafolio
 # Qué es Python?
-pasen cp
+
 # Qué es una variable?
 
 ## Nombrando una variable
