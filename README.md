@@ -94,9 +94,30 @@ multiplicacion_valor = valor1 * valor2
 print(multiplicacion_valor)
 ```
 ### División
+En la division se utilizara el slash / el cual dara a entender a python que se trata de una division
 
+Ejemplo de division en Python:
+```Python
+variable = 24 / 12
+print(variable)
+```
+
+```python
+valor1 = 201
+valor2 = 2
+division_valor = valor1 / valor2
+print(division_valor)
+```
 ### Módulo
 El módulo es una operación aritmética en la que se divide un valor por otro, y el residuo se devuelve. El simbolo usado para este operador es el % (en Python este simbolo se usa para obtener el módulo de una operación), la aplicación de la operación es igual de simple que el de los anteriores operadores.
+
+Ejemplo de modulo en Python:
+```Python
+num1=8
+num2=30
+modulo=num1%num2
+print(num1,'%',num2,'=',modulo)
+```
 # Tipos de datos en Python
 
 ## Integer
