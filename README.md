@@ -64,13 +64,39 @@ suma_valor = valor1 + valor2
 print(suma_valor)
 ```
 ### Resta
+Al igual que la suma, primero asignaremos valores para restarlos
 
+ejemplo de resta en python:
+```Python
+variable = 6 - 9
+print(variable)
+```
+
+```python
+valor1 = 1
+valor2 = 56
+resta_valor = valor1 - valor2
+print(resta_valor)
+```
 ### Multiplicación
+Para la multiplicacion en python utilizaremos *
 
+Ejemplo de multiplicacion en Python:
+```Python
+variable = 61 * 98
+print(variable)
+```
+
+```python
+valor1 = 43
+valor2 = 63
+multiplicacion_valor = valor1 * valor2
+print(multiplicacion_valor)
+```
 ### División
 
 ### Módulo
-
+El módulo es una operación aritmética en la que se divide un valor por otro, y el residuo se devuelve. El simbolo usado para este operador es el % (en Python este simbolo se usa para obtener el módulo de una operación), la aplicación de la operación es igual de simple que el de los anteriores operadores.
 # Tipos de datos en Python
 
 ## Integer
