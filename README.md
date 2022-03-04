@@ -32,10 +32,13 @@ Edad = 18
 Entre los operadores basicos en python encontramos los siguientes y cada uno con su respectivo signo con el cual se representa:
 
 •	suma (+)
+
 •	resta (-)
+
 •	multiplicacion (*)
+
 •	division (/)
-•	division euclidiana (cociente)(//)
+
 •	módulo (%)
 
 ### Suma
