@@ -41,6 +41,13 @@ Entre los operadores basicos en python encontramos los siguientes y cada uno con
 
 •	módulo (%)
 
+Para hacer operaciones con estos operadores logicos debemos asignar valores y dependiendo de la operacion que vayas a realizar, sea resta, division, etc. debemos colocar su signo y al final utilizaremos el "print" acompañado de unos parentesis el cual es una funcion en python, esta funcion se utiliza para imprimir un resultado.
+
+Ejemplo breve de la funcion print:
+```Python
+print(variable)
+```
+
 ### Suma
 El operador suma tal como su nombre lo indica trata sobre una suma matematica entre los valores asignados.
 
