@@ -7,10 +7,14 @@ Una variable esta formada por un espacio en un sistema de almacenamiento, una va
 La creación de variables se realiza a través de la asignación de un valor a la misma. El operador de asignación en Python es “=“
 ejemplo del uso y creacion de variable:
 ```Python
-numero = 13
+Numero = 13
 ```
-Como se puede apreciar en el ejemplo nombramos a nuestra variable "numero" y le agreamos como valor el numero 13
-primero debemos asignar la variable luego utilizamos el operador "=" y agregamos el valor de tendra dicha variable, en ese orden especifico
+Como se puede apreciar en el ejemplo nombramos a nuestra variable "numero" y le agreamos como valor el numero 13.
+Primero debemos asignar la variable luego utilizamos el operador "=" y agregamos el valor de tendra dicha variable, en ese orden especifico
+2do ejemplo:
+```Python
+Mascotas = ['perros', 'gatos']
+```
 ## Asignando valores a una variable
 
 ## Operadores básicos
