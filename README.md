@@ -42,7 +42,15 @@ Entre los operadores basicos en python encontramos los siguientes y cada uno con
 •	módulo (%)
 
 ### Suma
+El operador suma tal como su nombre lo indica trata sobre una suma matematica entre los valores asignados.
 
+Ejemplo de como realizar una suma en Python:
+```Python
+valor1 = 13
+valor2 = 7
+suma_valor = valor1 + valor2
+print(suma_valor)
+```
 ### Resta
 
 ### Multiplicación
