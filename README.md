@@ -15,10 +15,19 @@ Primero debemos asignar la variable luego utilizamos el operador "=" y agregamos
 
 2do ejemplo:
 ```Python
-Mascotas = ['perros', 'gatos']
+Animal = 'perro'
 ```
 ## Asignando valores a una variable
+Luego de a ver creado y nombrado a la variable, le debemos asignar una variable la cual puede ser del tipo numerica o textual
 
+Algo que hay que tener claro es que al momento de escribir un texto en la variable se debe utilizar las comillas, esto debido a que asi python identifique que es un texto.
+```Python
+Armas = 'cuchillo'
+```
+Cuando asignamos un valor numerico no se nesecita usar las comillas.
+```Python
+Edad = 18
+```
 ## Operadores básicos
 
 ### Suma
