@@ -10,7 +10,7 @@ ejemplo del uso y creacion de variable:
 Numero = 13
 ```
 Como se puede apreciar en el ejemplo nombramos a nuestra variable "numero" y le agreamos como valor el numero 13.
-Primero debemos asignar la variable luego utilizamos el operador "=" y agregamos el valor de tendra dicha variable, en ese orden especifico
+Primero debemos asignar la variable luego utilizamos el operador "=" y agregamos el valor de tendra dicha variable, en ese orden especifico.
 2do ejemplo:
 ```Python
 Mascotas = ['perros', 'gatos']
