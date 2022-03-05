@@ -168,11 +168,31 @@ print(a)
 print(type(a)) #resultado <class 'int'>
 ```
 ## List
+Una lista es una estructura de datos en Python, que es una secuencia ordenada de elementos que son mutables o editables. las cadenas se definen como caracteres entre comillas dobles, las listas se definen como valores entre corchetes []
 
+Ejemplo de list:
+```Python
+list = [ 2,6,8,["dos",seis","ocho"]]
+print(list)
+```
 ## Tuple
+Tuple o tuplas en python es un conjunto ordenado de elementos que se encuentran encerrados por paréntesis y separados por comas, casi como si fuera una lista.
 
+La tupla es una colección de objetos de Python separados por comas. 
+
+ejemplo de Tuple:
+```Python
+(1,2,4,5,6,7,8,9,10)
+("Yo", "soy", "la","venganza","")
+```
 ## Dictionary
+El dato Dictionary es una caracteristica de almacenamiento en la cual podemos asignar valores sean enteron, cadenas, listas, etc.
 
+Ejemplo de Dictionary:
+```Python
+diccionario = {'Nombre': 'Mickey', 'Edad': 20}
+print(diccionario)
+```
 # Tomando decisiones
 
 ## Sentencia if
