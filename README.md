@@ -158,7 +158,15 @@ nombre = 'Hugo Villacis'
 print(nombre)
 ```
 ## Casting en Python
+El casting o cast en python, se trata en convertir un tipo de dato a otro.
 
+Ejemplo de conversión (float a int):
+```Python
+a = 5.5
+a = int(a)
+print(a)
+print(type(a)) #resultado <class 'int'>
+```
 ## List
 
 ## Tuple
