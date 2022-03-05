@@ -136,7 +136,16 @@ H = int(18)
 print(H)
 ```
 ## Float
+El tipo numérico float permite representar un número positivo o negativo con decimales, es decir, números reales. La función float() devuelve un tipo de datos número entero float.
 
+Si declaramos una variable y le asignamos un valor decimal, por defecto la variable será de tipo float.
+
+Ejemplo de Float:
+```Python
+f = 0.10093
+print(f)       #0.10093
+print(type(f)) #<class 'float'>
+```
 ## String
 
 ## Casting en Python
