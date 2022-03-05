@@ -147,7 +147,16 @@ print(f)       #0.10093
 print(type(f)) #<class 'float'>
 ```
 ## String
+Estos son datos compuestos por caracteres que reprentan textos, estas cadenas de texto se representan mediante comillas.
 
+Ejemplo de String:
+```Python
+nombre = " Hugo Villacis"
+print(nombre)
+
+nombre = 'Hugo Villacis'
+print(nombre)
+```
 ## Casting en Python
 
 ## List
