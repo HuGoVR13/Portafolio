@@ -125,10 +125,16 @@ Entre los tipos de datos de Python tenemos los siguientes:
 
 •	Numeros de punto flotante (Float)
 
-•	Texto (cadenas de caracteres)) (String)
+•	Texto (cadenas de caracteres) (String)
 
 ## Integer
+En el Integer se utilizara "int" para representarlo en el lenguaje de programacion seguido del int , este tipo de dato se corresponde con los numeros enteros.
 
+Ejemplo de Integer:
+```Python
+H = int(18)
+print(H)
+```
 ## Float
 
 ## String
