@@ -194,13 +194,84 @@ diccionario = {'Nombre': 'Mickey', 'Edad': 20}
 print(diccionario)
 ```
 # Tomando decisiones
-
+Las decisiones en python son importantes al momento de decidir si nuestro programa debe ejecutar una orden, solo si se cumple con alguna condición anterior, para lograr esto en python, hacemos uso de la sentencia if.
 ## Sentencia if
+La estructura if / elif / else es una forma común de controlar el flujo de un programa, lo que te permite ejecutar bloques de código específicos según el valor de algunos datos. Si la condición que sigue a la palabra clave if se cumple o evalúa como verdadera, el bloque de código se ejecutará.
 
+Ejemplo de la sentencia if:
+```Python
+#Escribir un programa que solicite un valor entero al usuario
+#determine si es par o impar
+num=int(input("ingrese numero:"))
+
+if (num%2==0):
+    print("El numero es par",)
+    print(num,"es par")
+else:
+    print("El numero es impar")  
+```
 ## Ciclo For
+En python el ciclo for es una estructua que se  repite una serie de instrucciones por un numero determinado de veces (bucle) estos bucles, como su nombre indica, nos permiten ejecutar una o más líneas de código de forma iterativa.
 
+Ejemplo de For:
+```Python
+from turtle import position
+
+
+mascotas = ['gatos','perros','peces','loros']
+
+result = len(mascotas) 
+
+m0 = mascotas[0]
+m2 = mascotas[2]
+
+print(result)
+print(m2)
+
+for index, mascota in enumerate(mascotas):
+    print(index, mascota)
+
+position_peces = 0
+for index, mascota in enumerate(mascotas):
+    if mascota == "peces":
+        position_peces = index
+
+print(" se encontro un pez en la posicion ", position_peces)
+
+```
 ## Ciclo While
+La declaración o ciclo while al igual que el ciclo for, evalúa una condición y luego ejecuta un bloque de código solo si la condición dada por el programa es verdadera, el código seguirá ejecutandose hasa que la condición sea falsa.
 
+Ejemplo de Ciclo While:
+```Python
+x = 0
+while x < 5:
+    print('El valor actual es:', x)
+    x += 1
+```
 ## Break
+Break proporciona la capacidad de cerrar un ciclo cuando se activa una condición externa, se lo representa con "break".
 
+Ejemplo de Break:
+```Python
+j=0
+for i in range (10):
+    j+=2
+    print ("i;",i,"j:",j)
+    if j==10:
+        break
+```
 ## Continue
+La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle.
+
+Ejemplo de Continue:
+```Python
+x = 5
+while x > 0:
+    x -= 1
+    if x == 3:
+        continue
+    print(x)
+
+#Salida: 4, 2, 1, 0
+```
